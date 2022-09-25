@@ -63,6 +63,7 @@
         "caughtErrorsIgnorePattern": "^_"
       }
     ],
+    "@typescript-eslint/no-unsafe-member-access": "off",
     "react/no-unknown-property": "off"
   },
   "settings": {
