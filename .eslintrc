@@ -62,7 +62,8 @@
         "destructuredArrayIgnorePattern": "^_",
         "caughtErrorsIgnorePattern": "^_"
       }
-    ]
+    ],
+    "react/no-unknown-property": "off"
   },
   "settings": {
     "react": {
