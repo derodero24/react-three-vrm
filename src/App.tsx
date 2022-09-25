@@ -1,3 +1,14 @@
+import { Canvas } from '@react-three/fiber';
+
+import Box from './Box';
+
 export default function App(): JSX.Element {
-  return <div>Hello World</div>;
+  return (
+    <Canvas style={{ height: '100vh' }}>
+      <ambientLight />
+      <pointLight position={[10, 20, 10]} />
+      <Box position={[-1.2, 0, 0]} />
+      <Box position={[1.2, 0, 0]} />
+    </Canvas>
+  );
 }
